@@ -1,0 +1,21 @@
+{
+  "name": "luftdaten",
+  "version": "1.0.0",
+  "description": "Karte für Luftdaten in Duisburg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforduisburg/Luftdaten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeforduisburg/Luftdaten/issues"
+  },
+  "homepage": "https://github.com/codeforduisburg/Luftdaten#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

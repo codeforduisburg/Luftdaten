@@ -1,0 +1,80 @@
+html,
+body {
+    font: 16px/1.4 "Helvetica Neue", Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 10%;
+    min-width: 150px;
+    max-width: 300px;
+    height: auto;
+    z-index: 900;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.hexbin-tooltip,
+.info {
+    padding: 15px 50px 15px 15px;
+    font: 14px/1.35 "Helvetica Neue", Arial, sans-serif;
+    background: #fff;
+    background: rgba(255, 255, 255, .9);
+    text-align: left;
+}
+
+.legend {
+    text-align: left;
+    line-height: 25px;
+    color: #000;
+    position: relative;
+    font-size: 14px;
+}
+
+.legend i {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+    opacity: .75;
+    overflow: visible;
+}
+
+.legend i.limit::after {
+    content: "";
+    height: 3px;
+    width: 160%;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    margin: -1.5px 0 0;
+}
+
+.legend span {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.hexbin-container:hover .hexbin-hexagon {
+    transition: 200ms;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: 1;
+}
+
+.hexbin-tooltip table th {
+    font-weight: 500;
+    padding-right: 10px;
+}
