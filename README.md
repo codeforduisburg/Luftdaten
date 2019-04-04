@@ -1,7 +1,7 @@
-# Luftdaten in Duisburg
+# Luftdaten aus Duisburg
 
-Karte für Luftdaten in Duisburg
+Karte für Luftdaten aus Duisburg
 
 https://codeforduisburg.github.io/Luftdaten/
 
-<p align="center"><img src="https://raw.githubusercontent.com/codeforduisburg/Luftdaten/master/screenshot.png"></p>
+<img src="https://raw.githubusercontent.com/codeforduisburg/Luftdaten/master/screenshot.png">
