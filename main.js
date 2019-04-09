@@ -1,4 +1,4 @@
-var endpoint = `https://maps.luftdaten.info/data/v2/data.dust.min.json`;
+var endpoint = 'https://maps.luftdaten.info/data/v2/data.dust.min.json';
 
 var duisburg = [{
         latitude: 51.50,
